@@ -26,6 +26,7 @@ public class NotificationsFragment extends Fragment  implements OnMapReadyCallba
         mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(this);
         return v;
+        
     }
 
     @Override
